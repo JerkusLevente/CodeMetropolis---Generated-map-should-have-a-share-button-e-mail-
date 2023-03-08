@@ -6,3 +6,10 @@ Egy menüt kell elhelyezni a generált térkép ablakában ahol a felhasználó 
 
 There should be a menu bar where the user can share the generated map.
 The program should open the default e-mail client on the computer and set the picture of the map as an attachment.
+
+# User Documentation
+Follow the steps listed in the readme of CodeMetropolis up to step 5. Before entering "mvn clean package" command, replace the file named "CityMapGUI.java" found in "sources\toolchain\placing\src\main\java\codemetropolis\toolchain\placing" with the one found in the "Implementation of Issue #302" folder.
+
+Miután futtatjuk a placing.jar-t a "-m" kapcsolóval megjelenik a térkép.
+Az ablak felső széli sávjában elérhető egy gomb ami megnyitja az alapértelmezett email klienst és
+megosztja a generált térkép egy képfájlként, ami png kiterjesztésű.
